@@ -91,11 +91,24 @@ public class Login_UI : MonoBehaviour
     }
     private async void RegisterButtonClick()
     {
-        var errorText = await AuthenticationManager.Instance.RegisterWithUsernamePasswordAsync(
-            cadastroNomeField.value,
-            cadastroSenhaField.value
-        );
-        Debug.Log(errorText);
+        string nome = cadastroNomeField?.value.Trim();
+        string email = cadastroEmailField?.value.Trim();
+        string senha = cadastroSenhaField?.value;
+
+        if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(senha))
+        {
+            Debug.LogWarning("Preencha todos os campos!");
+            return;
+        }
+
+        string erro = await AuthenticationManager.Instance.RegisterWithUsernamePasswordAsync(nome, senha);
+
+        if (!string.IsNullOrEmpty(erro))
+        {
+            Debug.LogError("Erro no cadastro: " + erro);
+        }
+        // Se der sucesso, o evento OnLoginSuccess já é disparado
+        // e o método GoToGame() é chamado automaticamente
     }
 
     private async void LoginButtonClick()
@@ -118,7 +131,6 @@ public class Login_UI : MonoBehaviour
     }
     private void GoToGame()
     {
-        Debug.Log("Login bem-sucedido! Entrando no jogo...");
 
         // Esconde a UI de login
         if (loginUI != null)

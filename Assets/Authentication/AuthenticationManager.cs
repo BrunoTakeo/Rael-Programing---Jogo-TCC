@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Threading.Tasks;
 using Unity.Services.Authentication;
 using Unity.Services.Authentication.PlayerAccounts;
@@ -60,28 +60,22 @@ public class AuthenticationManager : MonoBehaviour
     {
         try
         {
+            if (!isInitialized) await InitializeServices();
+
             await AuthenticationService.Instance.SignUpWithUsernamePasswordAsync(username, password);
-        }
-        catch (AuthenticationException e)
-        {
-            if(e.ErrorCode == 51)
-            {
-                return "Acesso Negado, Token Invalido, Tenta o login De Novo";
-            }
-            Debug.LogException(e);
-            return e.Message;
-        }
-        catch (RequestFailedException e)
-        {
-            Debug.LogException(e);
-            return e.Message;
+
+            Debug.Log("Cadastro realizado com sucesso!");
+
+            // Dispara o mesmo evento do login ‚Üí vai pro jogo
+            OnLoginSuccess?.Invoke();
+
+            return "";
         }
         catch (Exception e)
         {
             Debug.LogException(e);
             return e.Message;
         }
-        return "";
     }
     public async Task<string> LoginWithUsernamePasswordAsync(string username, string password)
     {
@@ -114,15 +108,12 @@ public class AuthenticationManager : MonoBehaviour
     }
     public async Task LoginWithGoogleAsync()
     {
-        // Garante que est· inicializado antes de continuar
         if (!isInitialized)
-        {
             await InitializeServices();
-        }
 
         if (!isInitialized)
         {
-            Debug.LogError("Unity Services n„o foi inicializado. N„o È possÌvel fazer login com Google.");
+            Debug.LogError("Unity Services n√£o inicializado.");
             return;
         }
 
@@ -130,28 +121,63 @@ public class AuthenticationManager : MonoBehaviour
         {
             Debug.Log("Iniciando login com Google...");
 
-            // Abre a tela de login do Player Accounts
-            await PlayerAccountService.Instance.StartSignInAsync();
+            // Se j√° estiver logado no Player Accounts, vai direto
+            if (PlayerAccountService.Instance.IsSignedIn)
+            {
+                await SignInWithUnityToken();
+                return;
+            }
 
-            // Pega o token e autentica no Authentication Service
+            // Escuta o evento de sucesso
+            PlayerAccountService.Instance.SignedIn += OnPlayerAccountSignedIn;
+
+            // Abre a janela de login
+            await PlayerAccountService.Instance.StartSignInAsync();
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Erro ao iniciar login com Google:");
+            Debug.LogException(e);
+
+            // Remove o evento em caso de erro
+            PlayerAccountService.Instance.SignedIn -= OnPlayerAccountSignedIn;
+        }
+    }
+
+    // Chamado automaticamente quando o login no Player Accounts termina
+    private async void OnPlayerAccountSignedIn()
+    {
+        // Remove o evento para n√£o chamar v√°rias vezes
+        PlayerAccountService.Instance.SignedIn -= OnPlayerAccountSignedIn;
+
+        await SignInWithUnityToken();
+    }
+
+    private async Task SignInWithUnityToken()
+    {
+        try
+        {
             string accessToken = PlayerAccountService.Instance.AccessToken;
 
             if (string.IsNullOrEmpty(accessToken))
             {
-                Debug.LogError("Access Token vazio apÛs o login.");
+                Debug.LogError("Access Token ainda est√° vazio!");
                 return;
             }
+
+            Debug.Log("Access Token recebido. Autenticando no Unity Authentication...");
 
             await AuthenticationService.Instance.SignInWithUnityAsync(accessToken);
 
             Debug.Log("Login com Google realizado com sucesso!");
             Debug.Log($"Player ID: {AuthenticationService.Instance.PlayerId}");
 
+            // Entra no jogo
             OnLoginSuccess?.Invoke();
         }
         catch (Exception e)
         {
-            Debug.LogError("Erro no login com Google:");
+            Debug.LogError("Erro ao autenticar com o token do Player Accounts:");
             Debug.LogException(e);
         }
     }

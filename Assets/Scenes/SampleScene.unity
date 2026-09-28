@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: d1e690dfb41a68b4584563a3ee249a6e, type: 2}
-  animator: {fileID: 0}
+  animator: {fileID: 292297583}
 --- !u!1 &376888110
 GameObject:
   m_ObjectHideFlags: 0
