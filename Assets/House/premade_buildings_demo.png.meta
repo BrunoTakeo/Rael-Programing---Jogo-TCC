@@ -1,0 +1,4753 @@
+fileFormatVersion: 2
+guid: 3ea70faa9eca94b4097892fe1c14dd12
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: premade_buildings_demo_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c5d4f9fbe05d409767c7cc13538fb
+      internalID: 1706176606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97443f4d25d847a4e98d4cc351a2acef
+      internalID: 489061892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d998290ea9e965489f0c2f831c6e1ef
+      internalID: -1614821764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db9651083645447a8a250ac693c218
+      internalID: -945189626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e770a96185bb6c40bfc5fb72ab56fef
+      internalID: -869989073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7c89f39375954ea44d952fdafc48f
+      internalID: 2032276304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b1f1c21e224374cbf9043e04633d35
+      internalID: -476176305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e82400e2b4804b9e8215635d09091
+      internalID: 1683505825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df3737248ac4724a8c01fd9f179c978
+      internalID: 1906569282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84142575d7d33a64ea1b38ae0559095f
+      internalID: -2003696200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be66614e7618e444948bdcd281a8565
+      internalID: -273481011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc11c67db545e4147bced029ab9abd0c
+      internalID: -760994732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729c82f523c785548aa05672ba15262a
+      internalID: 283294152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4817b8e09d4a652459b015566d9ab705
+      internalID: -1366962129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb482a5996a62ec4f9b8a09188d7bdf5
+      internalID: -367369865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652471ddc597eae4ab15957f40f8853c
+      internalID: -1578673066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce5a4f01c263b842a8f3ee4be607c67
+      internalID: -1105261484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93518724b69167548b33416953fb6570
+      internalID: 1830066859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b58e656d54035448547951b6fd5571
+      internalID: 726232802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218858dc6f56f8d46b8231633afec4d8
+      internalID: 348868672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e98e4d4370c0d4993b7d7c720a270d
+      internalID: -1381600384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acacd3aa95100a04dbdeb4e42cbecb7d
+      internalID: -62752813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b61ee921418e034fa5db8fe09cc7d8a
+      internalID: -184010490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f213a555ec1744b48939f622dfb47
+      internalID: 814097199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de87430fb572314ea5f9da207bbe937
+      internalID: 187777020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ba3a41526dd85459a4db107c5c9d56
+      internalID: 1160271809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ea9098343bf18409d5747ce365ad0c
+      internalID: -1744621654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8b6450714ca24297716e678af5165
+      internalID: -396297540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1fbb667d24ecc4e91bbdaf3258dbe0
+      internalID: 840025506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e683c43fe6d79f040923a60a74a4f193
+      internalID: 968673388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_30
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea22043d233367459121067b076d3f6
+      internalID: 839830302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2337c8cca7f5a80489f82b583beb0f8a
+      internalID: -2000685670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7417e9d4dbb6a61449c4c8b1da3183f9
+      internalID: -1125844955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9160c37e10e7148916ce6a554a3710
+      internalID: 68097727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89cf1187519a8a4aa60e40d98cd9328
+      internalID: 1206315274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_35
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3b1b62784cee24799013db1351d5a8
+      internalID: -2086053799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857aae4f76bb9e1448714240a9c9814f
+      internalID: -872261298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba77a50dd9cc24bb7bb1d0342cefd6
+      internalID: -575432361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1822e4fa6489ea4f80d981fc8da9973
+      internalID: -1437895982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74b6b57fd8d4b45843d304245d9a7b
+      internalID: 1417148750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_40
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829e7832e004c24c9195d05607308e2
+      internalID: 670737685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4f9ec22703bcc46b424f61535980d9
+      internalID: -1906945445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08513c66d60c741a67deed175f8f86
+      internalID: -843568882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_43
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d2f058d0041449ab7417302d230dc
+      internalID: 638847475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f65446183dd5744ab2b3dc1f55e471e
+      internalID: -401397976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_45
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9073908e418eb8a4ca33a65d149f7750
+      internalID: -266573504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9092504e956cc4a995b33770bb35ac
+      internalID: 941610616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcabba91b136854da46453057d15bdf
+      internalID: 496815404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_48
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99a2baf38e12d94fa416425f4bf454f
+      internalID: 2078998653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5280d910de0514c9089de18b42bfc1
+      internalID: 1749357202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_50
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439741bb5f6568f4ba73f0b978862004
+      internalID: 1643438717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5121bc7d0de87e41b1a567f0f126816
+      internalID: 360874682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_52
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26598a7deaa1be4ba3b9be6a4e90c45
+      internalID: 875592208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_53
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a1415fa39fb14485c335350df1067
+      internalID: 254930321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_54
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce5696cb016ae0428bb6bf05bd10713
+      internalID: -1000739380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_55
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a99fb3d3345d04fb3e541e27bf15cc
+      internalID: 1314617491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbbc00d609847f42b6c8087118cd396
+      internalID: 1260826820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c487b78878fb644b8c0b19fd1cac87
+      internalID: 1982976930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_58
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc2b13fa20eb09459ac1f74ef89ea9a
+      internalID: 233355584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a79e60c2ed8ccf4cb3f166273b30a59
+      internalID: 1424984372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8634abc3d987fab499001381f2111a71
+      internalID: -1323304366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4b1928767497246992f5f3c3465414
+      internalID: 2129158648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b523a64becf842bb6883ae1ff650c
+      internalID: 1549606837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b526df185c22e534dbfe86018022fde4
+      internalID: -643514926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092cd40d61532c14cb5e5e6afa901d9a
+      internalID: 1698030050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bb158d12a3dfb46ac144137a1fd3a8
+      internalID: -862737917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_66
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07993b671dd61da4ba84d631a3729471
+      internalID: -2035025417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1596c9a2391da44b39a86a302bdc75
+      internalID: -1647570646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7f1af2cb5ecbb4f97f9ab18f91f9d3
+      internalID: 2144166532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_69
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5553b5894af12349a17980873452bde
+      internalID: 346899985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_70
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675545d3ff8eaca4081cde06b45ddcdc
+      internalID: -1364118964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_71
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322c2bb313dd632428e7de42c07525ca
+      internalID: 1752896844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_72
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d3ec6b7032b4458921dc5bc6d8b42
+      internalID: 1579848977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_73
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8887576132fcc194fb18debb3127ea17
+      internalID: -255014686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_74
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65f6c9920102034985f680e9eb86cad
+      internalID: -973627924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_75
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d4efe3f08f5b4cb521e1942f16e55
+      internalID: 830587313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3259d5bb7a1844a49a979fed03b2fe62
+      internalID: 1868577938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_77
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77105704117842c4795cfddd7f949bd6
+      internalID: -1744984604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_78
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b37d9c2b0446344ac1b9f915ec0120
+      internalID: 815413346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98c2af95fe93914d91fd65dd2f341f5
+      internalID: -109797906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c394b7877df0043b3e4aaa6ac52cba
+      internalID: 316182750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_81
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903dae98f0ef8d645ba0922767fe7b27
+      internalID: 2134761636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_82
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba2da0b91fac3047b485913eb011153
+      internalID: -1436039547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_83
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf363ce721c1d6f4ca0c6f2fcd65d99c
+      internalID: 192198622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_84
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704f9e57db4da56498abccec59426781
+      internalID: 1616356776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_85
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71732d8f560ae234995f0e6931abff59
+      internalID: -1670268314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce6adc4d8bf5e41bf6789eb8dbfa3e
+      internalID: -333657671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_87
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012a458fcacb0b4eac76b3e84eb1557
+      internalID: -226433760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_88
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db2a99c637b68e42ab007588f9c0f55
+      internalID: -1428982066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092aab0b50862e45b7a77d65712bd9d
+      internalID: 1184729534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_90
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44534f788cf0e4c9cc1225e600dba4
+      internalID: 1337856517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_91
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae5df629f7904b44be416a8885b28ff
+      internalID: 1057266871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_92
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774e548a12950774d8839bd6c0b7740b
+      internalID: -1913834570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_93
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5711ea2c3849b254c99f3fd35ae487bb
+      internalID: 1257760498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_94
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb646fa3e8f1a84c8dce5697047a63b
+      internalID: 462452758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_95
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c734ac5f2f51bbf41967b760c4db5ea6
+      internalID: -742241922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_96
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c308150dbb3b4459a5a6253fd4961a
+      internalID: -398387320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921d241d27a1da04da539fe565de439b
+      internalID: 1136997283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_98
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af33c921ebfa4346a8ecbb2bfef6b66
+      internalID: -851195082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_99
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951939159522b0542a327af0c2fe6a40
+      internalID: 1387151362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_100
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ebe67918382cb4d8f0405c3ddfe91b
+      internalID: -493075847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0567c92234747ac409513575a17d8445
+      internalID: -301446665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_102
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea401102e6ab49c41982860fd62e69c5
+      internalID: -981676222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_103
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9704a0c6baf594285ccfe8696067d4
+      internalID: -1949789131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_104
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeaf4c57df4a7f4b83be0fdf2600df7
+      internalID: 1371625850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_105
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650c1f569a44c1f468110909989d45e5
+      internalID: 721695154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b89fe4a62cf9964484384937d7c2190
+      internalID: -155394647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_107
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453a31173ba6c4a45b230b44bccac329
+      internalID: -1864137576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_108
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325027cbf14f16b448898bfc94f851ea
+      internalID: 439862244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_109
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bb023d522a6f8439bdba15b0be5fbd
+      internalID: -462016558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_110
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af3b1d377cbbc4795725f19e202605
+      internalID: 1878051689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04e421dca5f8e4fb9be99ea40bcf5a
+      internalID: 143721944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_112
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63de861dc656fc844b4cd613d376e0a0
+      internalID: -1854556290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_113
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173a4cf7765451e4798744ce91190436
+      internalID: -659650861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_114
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c91c37ab5382fd4181e0cefb1c9b1c0
+      internalID: -1089165691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_115
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aba1aa8b2f657c42bd530cbbf6423a8
+      internalID: 498855785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_116
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a920f88821bb1340a3a0f05c5483979
+      internalID: -1933047933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_117
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a00bc32fcedab64e9e9650421dff0f0
+      internalID: -46547106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c12d596ed46a5458e1dc1a84c0b010
+      internalID: -1883929248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_119
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5105a4d5101f80a4aa675090526e3925
+      internalID: 387506960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_120
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2900628bfe59ca14c892cc479f4a5e51
+      internalID: 1415325949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_121
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe4f0b9b9156c4998a27173fb1ab16
+      internalID: 656160932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_122
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98e009f878f4844bbc30f80953b7f4f
+      internalID: -623284591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_123
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea27f491ed2e73d40949ff25f28c47af
+      internalID: -1456932134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_124
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d287d3882c3eb944acca473fbfe301f
+      internalID: -1745001200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_125
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7fe1b6300c92e41a4c1abbe164ac75
+      internalID: -1744604567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_126
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0975a08bce7b63d458f5f1859a697ec7
+      internalID: -1832090866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_127
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c534d6d9367014684f81f606f2bc99
+      internalID: -611721927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_128
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1a6ebfd98392a478bea3476d386e36
+      internalID: 1717948000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432b7444ade141c469818d62799c7f1f
+      internalID: -864670699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_130
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15ddc4bc12f8e74db7445fc0462ec93
+      internalID: -891906365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_131
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb47e67884234b3489181e74135a7b18
+      internalID: -421240672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_132
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0c693543e5a554380e7718b4f7b86e
+      internalID: 1564165446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_133
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84245c233fdb1f46968f1fe080914ed
+      internalID: -29876449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42df58d3500a86240a04f14cfe0ce193
+      internalID: 596549021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_135
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f3fe42087fe4f4e97d97116c05c916
+      internalID: 1433726746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_136
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f2de56dfeda7f4b8987eff7116eb14
+      internalID: -1768834775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_137
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe137a090a859fe47ac3020315f5ba68
+      internalID: -1875621952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_138
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f077f6738885ec47acae0a9add4a907
+      internalID: 210436095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_139
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f675a7150d1ed54db3d17ee4134f600
+      internalID: -111189650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_140
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb382ddc76e0ed47b0177c4004f5296
+      internalID: -189841006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_141
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f1b812da6f5e458072cffe5584209
+      internalID: -1129943599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_142
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042afa8ae429a248a05da6fa27ed2d1
+      internalID: -982147611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_143
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2731853a5fd254c97eef6752a3e856
+      internalID: 1522550322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_144
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b36b4a2588cc04eb8932dce01a1347
+      internalID: -1283150761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_145
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366aea8b9cdcc54d99099c517b0edce
+      internalID: 1961787531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_146
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c118b08af35d14d4199a6e8208144289
+      internalID: -197054083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_147
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23376ad084980f47b3acaf1abaa6b36
+      internalID: 10477118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955ca4def0d018f4b9c5200276254ddf
+      internalID: 1317951883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_149
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d948ddcb90d93e42a3c0abc0154c417
+      internalID: 1729322464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7776b2a971a41eb44a5bb32ef915b5af
+      internalID: 1365483231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_151
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31851d013dc31b648a3e82fb76c37c7a
+      internalID: -1191373112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_152
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa0b52a5377b2444acc99daf7c66d76
+      internalID: -1999035891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_153
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a4fd68d87500b4e8600553addb55c7
+      internalID: -1859313613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_154
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6472edc1058b4945a1c256f6001bd56
+      internalID: -2065835663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_155
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6ffd94ad2c82489a56f8ebfb24260
+      internalID: 1066339456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_156
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc133cd84d2245a4084aebae650b4b40
+      internalID: -572674542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_157
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165f8ee329043f443951078b8b7ce1f9
+      internalID: -380865735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_158
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c937139c338fb439f2f16f7bbbe2eb
+      internalID: 1130818766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_159
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c7f225115b9344a3ea5b73e2c422c
+      internalID: -993311101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_160
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22eee74299b904bab665776bcd0c6f
+      internalID: 420907109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_161
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3a61cade6c5bb4387a31417d783fda
+      internalID: 954032083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714c24c3d169bad45becea499a0b3c45
+      internalID: 821187762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_163
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4762391391579448a148f4086c8ed3
+      internalID: -1096635063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeaf2e1645d4bf42a0b3331bf659e93
+      internalID: -1031684040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_165
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5929e24b1144ac4d8da53af60089923
+      internalID: -1118609706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_166
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ee0df0a5b1514f845ba67f6c2f863
+      internalID: -1867032261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_167
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764872f7016e47a419214b1cb54bb81c
+      internalID: 107125756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_168
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb7d694bd895ec4181bb51933cd6bc7
+      internalID: 2093544991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_169
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce712c88e4628c4f8f682d1a1a2e860
+      internalID: -1831188735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_170
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3337171af8af224a89a5ee63d566408
+      internalID: 226204795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_171
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d339f97ba01684499a327de329a96e
+      internalID: 2045887102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_172
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8e0bc54d69405479edcb5d6b064ceb
+      internalID: -1653209568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_173
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7da6ac2ddda1748ad44b5bbf2a2f02
+      internalID: -1402636620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_174
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff4dcff78c08ee4297cdbe8f3185192
+      internalID: 2040388208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_175
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b571a20d8f1cbe44bc6ea3f3f743c64
+      internalID: -1621909696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_176
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f603d64ac233b4cae3ca6340ef318d
+      internalID: 1091716159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_177
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a4f725cd46d74db8f11fb0854ff3e
+      internalID: 1290856690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_178
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18dc23c921a55544987bf9cc78d269f
+      internalID: -995594704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_179
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1bf0634175017479fb1c81ab40e915
+      internalID: -1469923655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_180
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff812ca237d835449dc817b03cf623b
+      internalID: -1097015683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_181
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb20bf0bfbf976f4fa48b009518beecb
+      internalID: 300386066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_182
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f580e03cffb86fa4192905d642a7a882
+      internalID: 1424343476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_183
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594b59c449a00c547bc05bc8a3e2b259
+      internalID: -256705923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_184
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de145583ab66a76498794a42ce2e3bcf
+      internalID: -686114005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_185
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e680df70c0fff5f4b93b670dc0c63909
+      internalID: 1559173115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993b8f4c389533d46b2c2111667da909
+      internalID: 88048570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_187
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47df805b62e095b41b50a2b3119d805a
+      internalID: -739815756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_188
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ccf813b3138b34eb4f3f12cfd27d77
+      internalID: -1096620403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_189
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01fcb9964cf4e149a4cc5379ce5cdd1
+      internalID: 1728691839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_190
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65a48e03e2a00b46abbd82d1c9072c6
+      internalID: 215182242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_191
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f126bf0c4bb04b994b10f3b0c039b
+      internalID: -919036392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_192
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd197622ba4ad343967cf4c8c45a779
+      internalID: -945114052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_193
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed60d5c2ea42534f91da53f8cdf9c02
+      internalID: -1007407936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_194
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b507d440f6a481c45b3b0c19c9a1fd21
+      internalID: 273454756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_195
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fc8715c2112f94aba7617d7437e6ed
+      internalID: 1948152110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_196
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da649d3ff7608c42bcddf74eacc8143
+      internalID: 1606639786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_197
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b2bd574faaea64ca2c4fbf02644d92
+      internalID: 523200335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_198
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9438962b29c3cac44b354e4882385b4e
+      internalID: -1672562517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_199
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e1f769396c1e44a7bea493beeeb3f
+      internalID: 1942123309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_200
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab728100f32f2fe4688f8a344e196801
+      internalID: -1108342969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_201
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5651506a45e4b514a9d0330f015f38a2
+      internalID: 103620095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_202
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fee09e11a4b6a64e9782c8025e195a8
+      internalID: 2144719937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_203
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4c08308da9124cb4090a044415910
+      internalID: 1256025399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_204
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544ad1f71c9621749b2417f9970dedf2
+      internalID: -1616876324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_205
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01e6559fc9df744a956e89f44ea784c
+      internalID: -729320310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_206
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a57e76cf21ff4aa4bcd432646ca81
+      internalID: 1738953794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_207
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb6886ef60fd0c4e8b7ffa2830f7022
+      internalID: 1262525968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_208
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93157483aa9d49241a843e121dbfbda2
+      internalID: -1799956501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_209
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b1d6aa62f5ff499fb6f561a49c713
+      internalID: 1218707832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premade_buildings_demo_210
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f88e1c77bd55046a55cd0559c4c7bf
+      internalID: 17031097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      premade_buildings_demo_0: 1706176606
+      premade_buildings_demo_1: 489061892
+      premade_buildings_demo_10: -273481011
+      premade_buildings_demo_100: -493075847
+      premade_buildings_demo_101: -301446665
+      premade_buildings_demo_102: -981676222
+      premade_buildings_demo_103: -1949789131
+      premade_buildings_demo_104: 1371625850
+      premade_buildings_demo_105: 721695154
+      premade_buildings_demo_106: -155394647
+      premade_buildings_demo_107: -1864137576
+      premade_buildings_demo_108: 439862244
+      premade_buildings_demo_109: -462016558
+      premade_buildings_demo_11: -760994732
+      premade_buildings_demo_110: 1878051689
+      premade_buildings_demo_111: 143721944
+      premade_buildings_demo_112: -1854556290
+      premade_buildings_demo_113: -659650861
+      premade_buildings_demo_114: -1089165691
+      premade_buildings_demo_115: 498855785
+      premade_buildings_demo_116: -1933047933
+      premade_buildings_demo_117: -46547106
+      premade_buildings_demo_118: -1883929248
+      premade_buildings_demo_119: 387506960
+      premade_buildings_demo_12: 283294152
+      premade_buildings_demo_120: 1415325949
+      premade_buildings_demo_121: 656160932
+      premade_buildings_demo_122: -623284591
+      premade_buildings_demo_123: -1456932134
+      premade_buildings_demo_124: -1745001200
+      premade_buildings_demo_125: -1744604567
+      premade_buildings_demo_126: -1832090866
+      premade_buildings_demo_127: -611721927
+      premade_buildings_demo_128: 1717948000
+      premade_buildings_demo_129: -864670699
+      premade_buildings_demo_13: -1366962129
+      premade_buildings_demo_130: -891906365
+      premade_buildings_demo_131: -421240672
+      premade_buildings_demo_132: 1564165446
+      premade_buildings_demo_133: -29876449
+      premade_buildings_demo_134: 596549021
+      premade_buildings_demo_135: 1433726746
+      premade_buildings_demo_136: -1768834775
+      premade_buildings_demo_137: -1875621952
+      premade_buildings_demo_138: 210436095
+      premade_buildings_demo_139: -111189650
+      premade_buildings_demo_14: -367369865
+      premade_buildings_demo_140: -189841006
+      premade_buildings_demo_141: -1129943599
+      premade_buildings_demo_142: -982147611
+      premade_buildings_demo_143: 1522550322
+      premade_buildings_demo_144: -1283150761
+      premade_buildings_demo_145: 1961787531
+      premade_buildings_demo_146: -197054083
+      premade_buildings_demo_147: 10477118
+      premade_buildings_demo_148: 1317951883
+      premade_buildings_demo_149: 1729322464
+      premade_buildings_demo_15: -1578673066
+      premade_buildings_demo_150: 1365483231
+      premade_buildings_demo_151: -1191373112
+      premade_buildings_demo_152: -1999035891
+      premade_buildings_demo_153: -1859313613
+      premade_buildings_demo_154: -2065835663
+      premade_buildings_demo_155: 1066339456
+      premade_buildings_demo_156: -572674542
+      premade_buildings_demo_157: -380865735
+      premade_buildings_demo_158: 1130818766
+      premade_buildings_demo_159: -993311101
+      premade_buildings_demo_16: -1105261484
+      premade_buildings_demo_160: 420907109
+      premade_buildings_demo_161: 954032083
+      premade_buildings_demo_162: 821187762
+      premade_buildings_demo_163: -1096635063
+      premade_buildings_demo_164: -1031684040
+      premade_buildings_demo_165: -1118609706
+      premade_buildings_demo_166: -1867032261
+      premade_buildings_demo_167: 107125756
+      premade_buildings_demo_168: 2093544991
+      premade_buildings_demo_169: -1831188735
+      premade_buildings_demo_17: 1830066859
+      premade_buildings_demo_170: 226204795
+      premade_buildings_demo_171: 2045887102
+      premade_buildings_demo_172: -1653209568
+      premade_buildings_demo_173: -1402636620
+      premade_buildings_demo_174: 2040388208
+      premade_buildings_demo_175: -1621909696
+      premade_buildings_demo_176: 1091716159
+      premade_buildings_demo_177: 1290856690
+      premade_buildings_demo_178: -995594704
+      premade_buildings_demo_179: -1469923655
+      premade_buildings_demo_18: 726232802
+      premade_buildings_demo_180: -1097015683
+      premade_buildings_demo_181: 300386066
+      premade_buildings_demo_182: 1424343476
+      premade_buildings_demo_183: -256705923
+      premade_buildings_demo_184: -686114005
+      premade_buildings_demo_185: 1559173115
+      premade_buildings_demo_186: 88048570
+      premade_buildings_demo_187: -739815756
+      premade_buildings_demo_188: -1096620403
+      premade_buildings_demo_189: 1728691839
+      premade_buildings_demo_19: 348868672
+      premade_buildings_demo_190: 215182242
+      premade_buildings_demo_191: -919036392
+      premade_buildings_demo_192: -945114052
+      premade_buildings_demo_193: -1007407936
+      premade_buildings_demo_194: 273454756
+      premade_buildings_demo_195: 1948152110
+      premade_buildings_demo_196: 1606639786
+      premade_buildings_demo_197: 523200335
+      premade_buildings_demo_198: -1672562517
+      premade_buildings_demo_199: 1942123309
+      premade_buildings_demo_2: -1614821764
+      premade_buildings_demo_20: -1381600384
+      premade_buildings_demo_200: -1108342969
+      premade_buildings_demo_201: 103620095
+      premade_buildings_demo_202: 2144719937
+      premade_buildings_demo_203: 1256025399
+      premade_buildings_demo_204: -1616876324
+      premade_buildings_demo_205: -729320310
+      premade_buildings_demo_206: 1738953794
+      premade_buildings_demo_207: 1262525968
+      premade_buildings_demo_208: -1799956501
+      premade_buildings_demo_209: 1218707832
+      premade_buildings_demo_21: -62752813
+      premade_buildings_demo_210: 17031097
+      premade_buildings_demo_22: -184010490
+      premade_buildings_demo_23: 814097199
+      premade_buildings_demo_24: 187777020
+      premade_buildings_demo_25: 1160271809
+      premade_buildings_demo_26: -1744621654
+      premade_buildings_demo_27: -396297540
+      premade_buildings_demo_28: 840025506
+      premade_buildings_demo_29: 968673388
+      premade_buildings_demo_3: -945189626
+      premade_buildings_demo_30: 839830302
+      premade_buildings_demo_31: -2000685670
+      premade_buildings_demo_32: -1125844955
+      premade_buildings_demo_33: 68097727
+      premade_buildings_demo_34: 1206315274
+      premade_buildings_demo_35: -2086053799
+      premade_buildings_demo_36: -872261298
+      premade_buildings_demo_37: -575432361
+      premade_buildings_demo_38: -1437895982
+      premade_buildings_demo_39: 1417148750
+      premade_buildings_demo_4: -869989073
+      premade_buildings_demo_40: 670737685
+      premade_buildings_demo_41: -1906945445
+      premade_buildings_demo_42: -843568882
+      premade_buildings_demo_43: 638847475
+      premade_buildings_demo_44: -401397976
+      premade_buildings_demo_45: -266573504
+      premade_buildings_demo_46: 941610616
+      premade_buildings_demo_47: 496815404
+      premade_buildings_demo_48: 2078998653
+      premade_buildings_demo_49: 1749357202
+      premade_buildings_demo_5: 2032276304
+      premade_buildings_demo_50: 1643438717
+      premade_buildings_demo_51: 360874682
+      premade_buildings_demo_52: 875592208
+      premade_buildings_demo_53: 254930321
+      premade_buildings_demo_54: -1000739380
+      premade_buildings_demo_55: 1314617491
+      premade_buildings_demo_56: 1260826820
+      premade_buildings_demo_57: 1982976930
+      premade_buildings_demo_58: 233355584
+      premade_buildings_demo_59: 1424984372
+      premade_buildings_demo_6: -476176305
+      premade_buildings_demo_60: -1323304366
+      premade_buildings_demo_61: 2129158648
+      premade_buildings_demo_62: 1549606837
+      premade_buildings_demo_63: -643514926
+      premade_buildings_demo_64: 1698030050
+      premade_buildings_demo_65: -862737917
+      premade_buildings_demo_66: -2035025417
+      premade_buildings_demo_67: -1647570646
+      premade_buildings_demo_68: 2144166532
+      premade_buildings_demo_69: 346899985
+      premade_buildings_demo_7: 1683505825
+      premade_buildings_demo_70: -1364118964
+      premade_buildings_demo_71: 1752896844
+      premade_buildings_demo_72: 1579848977
+      premade_buildings_demo_73: -255014686
+      premade_buildings_demo_74: -973627924
+      premade_buildings_demo_75: 830587313
+      premade_buildings_demo_76: 1868577938
+      premade_buildings_demo_77: -1744984604
+      premade_buildings_demo_78: 815413346
+      premade_buildings_demo_79: -109797906
+      premade_buildings_demo_8: 1906569282
+      premade_buildings_demo_80: 316182750
+      premade_buildings_demo_81: 2134761636
+      premade_buildings_demo_82: -1436039547
+      premade_buildings_demo_83: 192198622
+      premade_buildings_demo_84: 1616356776
+      premade_buildings_demo_85: -1670268314
+      premade_buildings_demo_86: -333657671
+      premade_buildings_demo_87: -226433760
+      premade_buildings_demo_88: -1428982066
+      premade_buildings_demo_89: 1184729534
+      premade_buildings_demo_9: -2003696200
+      premade_buildings_demo_90: 1337856517
+      premade_buildings_demo_91: 1057266871
+      premade_buildings_demo_92: -1913834570
+      premade_buildings_demo_93: 1257760498
+      premade_buildings_demo_94: 462452758
+      premade_buildings_demo_95: -742241922
+      premade_buildings_demo_96: -398387320
+      premade_buildings_demo_97: 1136997283
+      premade_buildings_demo_98: -851195082
+      premade_buildings_demo_99: 1387151362
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
