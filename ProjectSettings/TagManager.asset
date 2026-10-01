@@ -44,9 +44,18 @@ TagManager:
   - name: Background
     uniqueID: 891012731
     locked: 0
+  - name: WalkInFront
+    uniqueID: 3278472579
+    locked: 0
   - name: Foreground
     uniqueID: 36643651
     locked: 0
   - name: Player
     uniqueID: 495645577
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 1584768791
+    locked: 0
+  - name: Decor
+    uniqueID: 1827671093
     locked: 0
