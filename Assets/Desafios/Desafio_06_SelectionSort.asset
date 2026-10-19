@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_06_SelectionSort
+  m_EditorClassIdentifier: 
+  id: selection_sort
+  title: "Ordena\xE7\xE3o: Selection Sort (C#)"
+  lesson: "O Selection Sort (ordena\xE7\xE3o por sele\xE7\xE3o) procura o MENOR valor
+    da parte que ainda n\xE3o est\xE1 ordenada e o coloca na primeira posi\xE7\xE3o
+    dessa parte. Depois repete para a posi\xE7\xE3o seguinte.\n\nNa pr\xF3xima tela,
+    repare na barra roxa: ela marca o menor valor encontrado at\xE9 agora."
+  visualization:
+    enabled: 1
+    algorithm: 1
+    values: 060000000200000009000000040000000100000007000000
+  questions:
+  - type: 0
+    prompt: O que o Selection Sort faz a cada volta?
+    code: 
+    options:
+    - "Acha o menor valor da parte n\xE3o ordenada e o coloca no lugar certo"
+    - Troca sempre os dois primeiros valores
+    - Embaralha o vetor
+    - Remove o maior valor
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "Cada volta fixa mais um valor na posi\xE7\xE3o definitiva."
+  - type: 1
+    prompt: "Em { 4, 2, 7 }, qual \xE9 o menor valor que ele encontra na primeira
+      volta?"
+    code: int[] v = { 4, 2, 7 };
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - 2
+    ignoreCase: 0
+    hint: Olhe todos os valores e ache o menor.
+    explanation: "O menor valor do vetor \xE9 2."
+  - type: 0
+    prompt: Depois da primeira volta em { 4, 2, 7, 1 }, como fica o vetor?
+    code: 
+    options:
+    - 1, 2, 7, 4
+    - 2, 4, 7, 1
+    - 1, 4, 7, 2
+    - 4, 2, 1, 7
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: 'O menor valor (1) troca de lugar com o primeiro (4): { 1, 2, 7,
+      4 }.'

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_03_Lacos
+  m_EditorClassIdentifier: 
+  id: lacos
+  title: "La\xE7os de repeti\xE7\xE3o"
+  lesson: "Um la\xE7o (loop) repete um bloco de c\xF3digo sem precisar escrever tudo
+    de novo.\n\n    for i in range(3):\n        print(\"Oi\")\n\nO range(3) faz o
+    bloco repetir 3 vezes. J\xE1 o while repete enquanto uma condi\xE7\xE3o for verdadeira:\n\n   
+    while vida > 0:\n        vida = vida - 1"
+  questions:
+  - type: 0
+    prompt: Quantas vezes a palavra Oi aparece na tela?
+    code: "for i in range(4):\n    print(\"Oi\")"
+    options:
+    - 3
+    - 4
+    - 5
+    - Nenhuma
+    correctOption: 1
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: range(4) repete o bloco 4 vezes.
+  - type: 1
+    prompt: "Complete a primeira palavra do la\xE7o."
+    code: '___ i in range(5):'
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - for
+    ignoreCase: 0
+    hint: "Tem 3 letras e come\xE7a com f."
+    explanation: for i in range(5) repete o bloco 5 vezes.
+  - type: 0
+    prompt: "Qual la\xE7o repete enquanto uma condi\xE7\xE3o for verdadeira?"
+    code: 
+    options:
+    - for
+    - while
+    - if
+    - def
+    correctOption: 1
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "O while testa a condi\xE7\xE3o a cada volta e s\xF3 para quando
+      ela fica falsa."

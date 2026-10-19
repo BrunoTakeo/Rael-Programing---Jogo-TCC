@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_01_Variaveis
+  m_EditorClassIdentifier: 
+  id: variaveis
+  title: "Vari\xE1veis"
+  lesson: "Uma vari\xE1vel \xE9 como uma caixinha com um nome, onde guardamos um
+    valor para usar depois.\n\nEm Python, criamos uma vari\xE1vel com o sinal de
+    igual (=):\n\n    vida = 100\n    nome = \"Rael\"\n\nO nome da vari\xE1vel fica
+    \xE0 esquerda e o valor \xE0 direita. Depois, basta usar o nome para ler o valor
+    guardado."
+  questions:
+  - type: 0
+    prompt: "Qual linha cria uma vari\xE1vel chamada vida com o valor 100?"
+    code: 
+    options:
+    - vida = 100
+    - 100 = vida
+    - vida == 100
+    - criar vida 100
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "O nome vai \xE0 esquerda e o valor \xE0 direita do =. O == serve
+      para comparar, n\xE3o para guardar."
+  - type: 1
+    prompt: "Complete o c\xF3digo para guardar o n\xFAmero 5 na vari\xE1vel pontos."
+    code: pontos ___ 5
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - =
+    ignoreCase: 0
+    hint: "Qual s\xEDmbolo usamos para guardar um valor dentro de uma vari\xE1vel?"
+    explanation: Isso! O = guarda o valor 5 dentro de pontos.
+  - type: 1
+    prompt: "O que o c\xF3digo abaixo mostra na tela?"
+    code: 'nome = "Rael"
+
+      print(nome)'
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - Rael
+    ignoreCase: 1
+    hint: "O print mostra o valor guardado na vari\xE1vel, n\xE3o o nome dela."
+    explanation: 'print(nome) mostra o valor guardado em nome: Rael.'

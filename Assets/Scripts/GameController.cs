@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { FreeRoam, Dialog, Challenge}
+public enum GameState { FreeRoam, Dialog, Challenge, Transition }
 
 public class GameController : MonoBehaviour
 {
+    public static GameController Instance { get; private set; }
+
     [SerializeField] private PlayerControll playerControll;
 
     private GameState state;
+    public GameState State => state;
+
     private void Awake()
     {
-        // Se playerControll não foi atribuído no Inspector, tentamos buscar o PlayerControll automaticamente
+        Instance = this;
+
         if (playerControll == null)
         {
             playerControll = FindObjectOfType<PlayerControll>();
@@ -37,17 +42,22 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-        if(state == GameState.FreeRoam)
+        if (state == GameState.FreeRoam)
         {
             playerControll.HandleUpdate();
 
-        }else if(state == GameState.Dialog)
+        }
+        else if (state == GameState.Dialog)
         {
             DialogManager.Instance.HandleUpdate();
 
-        }else if(state == GameState.Challenge)
+        }
+        else if (state == GameState.Challenge)
         {
-
+            if (ChallengeManager.Instance != null)
+            {
+                ChallengeManager.Instance.HandleUpdate();
+            }
         }
     }
     public void SetGameState(GameState newState)

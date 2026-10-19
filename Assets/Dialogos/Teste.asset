@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: Teste
   m_EditorClassIdentifier: 
   lines:
-  - Hello World
-  - "Por Enquanto N\xE3o tenho nada pra dar."
+  - Ola meu Jovem...
+  - Tenho certeza que possui varias duvidas sobre este mundo...
+  - "N\xE3o se preocupa...Este \xE9 o mundo Nygaard. Onde no seu mundo..."
+  - "A programa\xE7\xE3o \xE9 chamada aqui de magia."
+  - Para testas suas capacidades, eu quero lhe dar um desafio.
+  - Um Desafios basicos de C#

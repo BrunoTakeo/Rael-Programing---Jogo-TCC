@@ -16,9 +16,18 @@ public class PlayerControll : MonoBehaviour
 
     public LayerMask interactableLayer;
 
+    private Vector2 gridOffset;
+
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
+
+        Vector3 p = transform.position;
+        gridOffset = new Vector2(
+            p.x - (Mathf.Floor(p.x) + 0.5f),
+            p.y - (Mathf.Floor(p.y) + 0.5f));
+
     }
 
     public void HandleUpdate()
@@ -79,6 +88,29 @@ public class PlayerControll : MonoBehaviour
         }
 
         StopAllCoroutines(); // para qualquer movimento que estiver acontecendo
+    }
+
+    public void TeleportTo(Vector3 worldPosition, Vector2 facing)
+    {
+        StopAllCoroutines();
+        isMoving = false;
+        input = Vector2.zero;
+
+        transform.position = new Vector3(
+            Mathf.Floor(worldPosition.x) + 0.5f + gridOffset.x,
+            Mathf.Floor(worldPosition.y) + 0.5f + gridOffset.y,
+            transform.position.z);
+
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", false);
+
+            if (facing != Vector2.zero)
+            {
+                animator.SetFloat("MoveX", facing.x);
+                animator.SetFloat("MoveY", facing.y);
+            }
+        }
     }
     IEnumerator Move(Vector3 targetPos)
     {

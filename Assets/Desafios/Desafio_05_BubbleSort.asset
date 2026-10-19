@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_05_BubbleSort
+  m_EditorClassIdentifier: 
+  id: bubble_sort
+  title: "Ordena\xE7\xE3o: Bubble Sort (C#)"
+  lesson: "Ordenar \xE9 colocar os valores numa ordem, por exemplo do menor para
+    o maior.\n\nO Bubble Sort compara dois vizinhos de cada vez e troca os que est\xE3o
+    fora de ordem. A cada volta completa, o maior valor \"borbulha\" at\xE9 o final
+    do vetor.\n\nNa pr\xF3xima tela voc\xEA vai ver o algoritmo funcionando, com
+    o c\xF3digo em C# ao lado."
+  visualization:
+    enabled: 1
+    algorithm: 0
+    values: 050000000300000008000000010000000900000002000000
+  questions:
+  - type: 0
+    prompt: "No Bubble Sort, o que acontece quando dois vizinhos est\xE3o fora de
+      ordem?"
+    code: 
+    options:
+    - Eles trocam de lugar
+    - "O menor \xE9 apagado"
+    - "O vetor inteiro \xE9 invertido"
+    - Nada, o algoritmo continua
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "\xC9 a troca de vizinhos que vai empurrando os maiores valores
+      para o final."
+  - type: 1
+    prompt: "O vetor \xE9 { 5, 3, 8 }. Como ele fica depois de trocar s\xF3 os dois
+      primeiros? Digite separado por v\xEDrgulas."
+    code: int[] v = { 5, 3, 8 };
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - 3,5,8
+    ignoreCase: 0
+    hint: "Troque o 5 de lugar com o 3 e deixe o 8 onde est\xE1."
+    explanation: Depois da troca, o vetor fica { 3, 5, 8 }.
+  - type: 0
+    prompt: "Depois da primeira volta completa em { 5, 3, 8, 1 }, qual valor j\xE1
+      est\xE1 na posi\xE7\xE3o final (a \xFAltima)?"
+    code: 
+    options:
+    - 8
+    - 1
+    - 5
+    - 3
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "O maior valor borbulha at\xE9 o fim: 5,3,8,1 vira 3,5,1,8."
+  - type: 1
+    prompt: "Complete a condi\xE7\xE3o que troca vizinhos fora de ordem (ordem crescente)."
+    code: "if (v[j] ___ v[j + 1])\n    Trocar(v, j, j + 1);"
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - '>'
+    ignoreCase: 0
+    hint: "Troca quando o da esquerda \xE9 MAIOR que o da direita."
+    explanation: "Se v[j] > v[j + 1], o da esquerda \xE9 maior e precisa ir para
+      a direita."
+  - type: 0
+    prompt: "Se o vetor j\xE1 est\xE1 ordenado, quantas trocas o Bubble Sort faz?"
+    code: 
+    options:
+    - 0
+    - 1
+    - n
+    - n vezes n
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "Nenhum par est\xE1 fora de ordem, ent\xE3o nenhuma troca acontece
+      (ele s\xF3 compara)."

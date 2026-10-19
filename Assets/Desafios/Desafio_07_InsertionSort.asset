@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_07_InsertionSort
+  m_EditorClassIdentifier: 
+  id: insertion_sort
+  title: "Ordena\xE7\xE3o: Insertion Sort (C#)"
+  lesson: "O Insertion Sort funciona como ordenar cartas na m\xE3o: voc\xEA pega
+    uma carta de cada vez e a desliza para tr\xE1s at\xE9 achar o lugar certo.\n\nA
+    parte da esquerda do vetor fica sempre ordenada (em verde) e cresce a cada passo."
+  visualization:
+    enabled: 1
+    algorithm: 2
+    values: 070000000300000009000000040000000600000001000000
+  questions:
+  - type: 0
+    prompt: "Qual parte do vetor o Insertion Sort mant\xE9m sempre ordenada?"
+    code: 
+    options:
+    - A parte da esquerda
+    - A parte da direita
+    - "S\xF3 o meio"
+    - Nenhuma
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "Ele vai aumentando a parte ordenada da esquerda, uma posi\xE7\xE3o
+      por vez."
+  - type: 1
+    prompt: Complete a troca com o vizinho da esquerda.
+    code: "while (j > 0 && v[j-1] > v[j])\n{\n    Trocar(v, j, ___);\n    j--;\n}"
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - j-1
+    ignoreCase: 0
+    hint: "O vizinho da esquerda est\xE1 uma posi\xE7\xE3o antes de j."
+    explanation: Trocar(v, j, j-1) troca o valor com o vizinho da esquerda.
+  - type: 0
+    prompt: Em { 3, 5, 4 }, ao inserir o 4, com quem ele troca de lugar?
+    code: 
+    options:
+    - Com o 5
+    - Com o 3
+    - "Com ningu\xE9m"
+    - Com os dois ao mesmo tempo
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "O 5 \xE9 maior que o 4, ent\xE3o trocam. Depois o 3 \xE9 menor
+      que o 4 e ele para."

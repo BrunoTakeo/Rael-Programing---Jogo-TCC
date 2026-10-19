@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_04_CSharp_Basico
+  m_EditorClassIdentifier: 
+  id: csharp_basico
+  title: "C# B\xE1sico: tipos e vari\xE1veis"
+  lesson: "C# \xE9 uma linguagem tipada: ao criar uma vari\xE1vel, dizemos qual \xE9
+    o tipo dela.\n\n    int vida = 100;\n    float velocidade = 2.5f;\n    string
+    nome = \"Rael\";\n    bool vivo = true;\n\nint = n\xFAmero inteiro | float =
+    n\xFAmero com v\xEDrgula (termina com f) | string = texto entre aspas duplas
+    | bool = true ou false.\n\nToda instru\xE7\xE3o termina com ponto e v\xEDrgula
+    (;). Para mostrar algo na tela: Console.WriteLine(nome); (na Unity: Debug.Log(nome);)."
+  questions:
+  - type: 0
+    prompt: "Qual tipo guarda o n\xFAmero inteiro 100?"
+    code: 
+    options:
+    - int
+    - string
+    - bool
+    - float
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "int guarda n\xFAmeros inteiros, como 100."
+  - type: 1
+    prompt: Complete com o tipo certo para guardar um texto.
+    code: ___ nome = "Rael";
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - string
+    ignoreCase: 0
+    hint: "\xC9 o tipo usado para texto. Escreva em min\xFAsculas."
+    explanation: string guarda texto, sempre entre aspas duplas.
+  - type: 0
+    prompt: "Qual linha declara corretamente uma vari\xE1vel float?"
+    code: 
+    options:
+    - float v = 2.5f;
+    - float v = 2.5;
+    - Float v = 2.5f;
+    - float v = "2.5f";
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "Em C#, um float precisa do f no final (2.5f); sem ele o n\xFAmero
+      \xE9 double. E o tipo se escreve em min\xFAsculas."
+  - type: 1
+    prompt: O que falta no fim da linha?
+    code: int pontos = 10___
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - ;
+    ignoreCase: 0
+    hint: "Toda instru\xE7\xE3o em C# termina com um s\xEDmbolo especial."
+    explanation: "O ponto e v\xEDrgula (;) encerra a instru\xE7\xE3o."
+  - type: 1
+    prompt: Qual valor aparece na tela?
+    code: 'int a = 3;
+
+      int b = 4;
+
+      Console.WriteLine(a + b);'
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - 7
+    ignoreCase: 0
+    hint: Some os valores guardados em a e b.
+    explanation: a + b = 3 + 4 = 7.
+  - type: 0
+    prompt: "O que o c\xF3digo abaixo mostra na tela?"
+    code: "int vida = 0;\nif (vida > 0)\n{\n    Console.WriteLine(\"Vivo\");\n}\nelse\n{\n   
+      Console.WriteLine(\"Game Over\");\n}"
+    options:
+    - Vivo
+    - Game Over
+    - Nada
+    - "D\xE1 erro"
+    correctOption: 1
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "vida vale 0, ent\xE3o vida > 0 \xE9 falso e o bloco do else \xE9
+      executado. Em C#, a condi\xE7\xE3o do if fica entre par\xEAnteses."

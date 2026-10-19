@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3360de5c250744b72cb39c94b8dfd, type: 3}
+  m_Name: Desafio_02_Condicionais
+  m_EditorClassIdentifier: 
+  id: condicionais
+  title: Condicionais (if / else)
+  lesson: "Com o if, o programa toma decis\xF5es: o bloco s\xF3 roda se a condi\xE7\xE3o
+    for verdadeira. O else roda quando a condi\xE7\xE3o \xE9 falsa.\n\n    if vida
+    > 0:\n        print(\"Vivo\")\n    else:\n        print(\"Game Over\")\n\nRepare
+    nos dois-pontos (:) no fim do if e do else, e no recuo (espa\xE7os) das linhas
+    de dentro do bloco."
+  questions:
+  - type: 0
+    prompt: "O que o c\xF3digo abaixo mostra na tela?"
+    code: "vida = 0\nif vida > 0:\n    print(\"Vivo\")\nelse:\n    print(\"Game Over\")"
+    options:
+    - Vivo
+    - Game Over
+    - Nada
+    - "D\xE1 erro"
+    correctOption: 1
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "vida vale 0, ent\xE3o vida > 0 \xE9 falso e o else \xE9 executado."
+  - type: 1
+    prompt: "Complete para verificar se vida \xE9 igual a 0."
+    code: 'if vida ___ 0:'
+    options: []
+    correctOption: 0
+    acceptedAnswers:
+    - ==
+    ignoreCase: 0
+    hint: Para comparar dois valores usamos dois sinais de igual.
+    explanation: "O == compara dois valores. Um \xFAnico = guardaria um valor."
+  - type: 0
+    prompt: "Qual palavra executa um bloco quando a condi\xE7\xE3o do if \xE9 falsa?"
+    code: 
+    options:
+    - else
+    - then
+    - stop
+    - otherwise
+    correctOption: 0
+    acceptedAnswers: []
+    ignoreCase: 0
+    hint: 
+    explanation: "O else cobre o caso contr\xE1rio ao do if."
