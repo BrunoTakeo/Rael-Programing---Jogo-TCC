@@ -25,8 +25,7 @@ MonoBehaviour:
     values: 050000000300000008000000010000000900000002000000
   questions:
   - type: 0
-    prompt: "No Bubble Sort, o que acontece quando dois vizinhos est\xE3o fora de
-      ordem?"
+    prompt: "No Bubble Sort, o que acontece quando dois livros est\xE3o fora de ordem?"
     code: 
     options:
     - Eles trocam de lugar
@@ -37,11 +36,11 @@ MonoBehaviour:
     acceptedAnswers: []
     ignoreCase: 0
     hint: 
-    explanation: "\xC9 a troca de vizinhos que vai empurrando os maiores valores
-      para o final."
+    explanation: "\xC9 a troca dos livros que vai empurrando os numero maior para
+      o final."
   - type: 1
     prompt: "O vetor \xE9 { 5, 3, 8 }. Como ele fica depois de trocar s\xF3 os dois
-      primeiros? Digite separado por v\xEDrgulas."
+      primeiros Livros? Digite separado por v\xEDrgulas."
     code: int[] v = { 5, 3, 8 };
     options: []
     correctOption: 0
@@ -76,7 +75,7 @@ MonoBehaviour:
     explanation: "Se v[j] > v[j + 1], o da esquerda \xE9 maior e precisa ir para
       a direita."
   - type: 0
-    prompt: "Se o vetor j\xE1 est\xE1 ordenado, quantas trocas o Bubble Sort faz?"
+    prompt: "Se os livros j\xE1 est\xE1 ordenado, quantas trocas o Bubble Sort faz?"
     code: 
     options:
     - 0

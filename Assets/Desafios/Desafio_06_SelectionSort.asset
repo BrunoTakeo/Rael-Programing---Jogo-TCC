@@ -37,7 +37,7 @@ MonoBehaviour:
     hint: 
     explanation: "Cada volta fixa mais um valor na posi\xE7\xE3o definitiva."
   - type: 1
-    prompt: "Em { 4, 2, 7 }, qual \xE9 o menor valor que ele encontra na primeira
+    prompt: "Em { 4, 2, 7 }, qual \xE9 a menor ma\xE7a que ele encontra na primeira
       volta?"
     code: int[] v = { 4, 2, 7 };
     options: []
